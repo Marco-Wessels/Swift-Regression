@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A38C760A2EE63F0F002C7D78 /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = A38C76092EE63F0F002C7D78 /* CodableCSV */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A38C75F32EE627EC002C7D78 /* Swift Regression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Regression.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38C760A2EE63F0F002C7D78 /* CodableCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "Swift Regression";
 			packageProductDependencies = (
+				A38C76092EE63F0F002C7D78 /* CodableCSV */,
 			);
 			productName = "Swift Regression";
 			productReference = A38C75F32EE627EC002C7D78 /* Swift Regression.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = A38C75EA2EE627EC002C7D78;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A38C76082EE63F0F002C7D78 /* XCLocalSwiftPackageReference "../CodableCSV" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A38C75F42EE627EC002C7D78 /* Products */;
 			projectDirPath = "";
@@ -325,6 +334,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A38C76082EE63F0F002C7D78 /* XCLocalSwiftPackageReference "../CodableCSV" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../CodableCSV;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A38C76092EE63F0F002C7D78 /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A38C75EB2EE627EC002C7D78 /* Project object */;
 }
