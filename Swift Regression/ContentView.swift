@@ -7,19 +7,6 @@
 
 import SwiftUI
 import Charts
-import CodableCSV
-
-struct Country: Identifiable{
-    var name: String
-    var HapScore: Double
-    //var region: String
-    var id = UUID()
-}
-
-var data: [Country] = [
-    .init(name: "New Zealand", HapScore: 6),
-    .init(name: "Australia", HapScore: 7)
-]
 
 struct ContentView: View {
     var body: some View {
