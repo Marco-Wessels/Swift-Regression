@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A38C760A2EE63F0F002C7D78 /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = A38C76092EE63F0F002C7D78 /* CodableCSV */; };
-		A38C76102EE65076002C7D78 /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = A38C760F2EE65076002C7D78 /* CSV */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		A38C75F32EE627EC002C7D78 /* Swift Regression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Regression.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -28,8 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A38C760A2EE63F0F002C7D78 /* CodableCSV in Frameworks */,
-				A38C76102EE65076002C7D78 /* CSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +65,6 @@
 			);
 			name = "Swift Regression";
 			packageProductDependencies = (
-				A38C76092EE63F0F002C7D78 /* CodableCSV */,
-				A38C760F2EE65076002C7D78 /* CSV */,
 			);
 			productName = "Swift Regression";
 			productReference = A38C75F32EE627EC002C7D78 /* Swift Regression.app */;
@@ -91,6 +82,7 @@
 				TargetAttributes = {
 					A38C75F22EE627EC002C7D78 = {
 						CreatedOnToolsVersion = 26.1.1;
+						LastSwiftMigration = 2600;
 					};
 				};
 			};
@@ -260,6 +252,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -280,6 +273,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift Regression/Bridging/bridging.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -290,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -310,6 +306,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift Regression/Bridging/bridging.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -344,17 +341,6 @@
 			relativePath = ../CSV.swift;
 		};
 /* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A38C76092EE63F0F002C7D78 /* CodableCSV */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CodableCSV;
-		};
-		A38C760F2EE65076002C7D78 /* CSV */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CSV;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A38C75EB2EE627EC002C7D78 /* Project object */;
 }

@@ -14,15 +14,7 @@ struct ContentView: View {
             Image(systemName: "chart.bar")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Graph")
-            Chart {
-                ForEach(data){ Country in
-                    BarMark(
-                        x: .value("Name", Country.name),
-                        y: .value("Happiness", Country.HapScore)
-                        )
-                }
-            }
+            Text("First Value: \(TestWrapper())")
         }
         .padding()
     }
